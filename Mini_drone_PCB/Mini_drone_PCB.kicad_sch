@@ -1,0 +1,702 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "26327867-460c-43fd-8161-2610019aa08d")
+	(paper "A4")
+	(title_block
+		(title "Main page")
+		(comment 1 "Anawach A.")
+	)
+	(lib_symbols)
+	(junction
+		(at 115.57 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02281773-d250-4cfd-92ae-878830b5d8b1")
+	)
+	(junction
+		(at 119.38 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5433a731-976d-4e3f-ae5d-701ee85625c1")
+	)
+	(junction
+		(at 115.57 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a410c3-e735-4c42-a0ee-4fc475fa2e12")
+	)
+	(junction
+		(at 119.38 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d29a73fe-b3c8-4819-bc00-b5eccdf775bd")
+	)
+	(junction
+		(at 115.57 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e849e727-c759-43b9-926b-7c34469ebedd")
+	)
+	(junction
+		(at 119.38 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd044fe9-f206-4f95-afaa-498d691829b4")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 115.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c463225-69d9-4c54-9815-12e3a60f0152")
+	)
+	(wire
+		(pts
+			(xy 106.68 123.19) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53abe3b8-6a68-4204-807f-8e5f455d3b70")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f82f76-a31c-488a-8b4a-01941e33ffb1")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3c5baf-a3ff-495e-972e-d10e64a13862")
+	)
+	(wire
+		(pts
+			(xy 115.57 92.71) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66adcd59-8482-48b8-9166-057ae92f8c7d")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7203886e-fb13-46e3-8fec-9545a7040351")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7513c188-117e-4b7d-b764-7f3831d9bf77")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c08cc5e-d70f-4965-a65b-9c44f6296f82")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82075dfb-5f5a-4475-b9a4-700b882c9b3c")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c217ad3-c722-4039-a8bf-3819be3566dd")
+	)
+	(wire
+		(pts
+			(xy 115.57 102.87) (xy 115.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50aceb2-1f1e-4558-920b-96f944153546")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 119.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b316e191-0fd8-4ee3-9926-d55ba7967cc9")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c02682-52a8-448e-aa17-6fb488a1c5f5")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6c0f7c-6313-4e77-aa26-20e8693f2a34")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0473e07-85fe-4a0c-9d49-3bc5503ba16a")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caabd4b4-df20-42c4-83bd-ddc141d44af2")
+	)
+	(wire
+		(pts
+			(xy 106.68 102.87) (xy 115.57 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf273f7-28a1-41fc-a394-307dc1e2c5af")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5ef0d3-53f2-41af-b396-998cb802a104")
+	)
+	(wire
+		(pts
+			(xy 119.38 125.73) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a97bae-0a3b-4e68-8a18-200253f81676")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2fff38-76bb-4432-a8d9-4a6981fde891")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57e6109-d09c-415e-86e5-b563ab9f0614")
+	)
+	(wire
+		(pts
+			(xy 106.68 100.33) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80c5b51-eb06-42d8-889b-044e34f4261a")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbc0f9b-cf1b-413c-951b-a30636655081")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 115.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8782145-bcc4-48f6-bcad-5f563ad3d0a2")
+	)
+	(sheet
+		(at 85.09 118.11)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ee961ee-28a5-435d-8f7d-51c598dffbc0")
+		(property "Sheetname" "PSU"
+			(at 85.09 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 85.09 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA236_SCL" bidirectional
+			(at 106.68 123.19 0)
+			(uuid "84ec3b0c-59ec-457d-99b2-d74cc361af77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INA236_SDA" bidirectional
+			(at 106.68 125.73 0)
+			(uuid "00b7b1b4-58c7-40ea-ace5-b15c1224f94f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 72.39)
+		(size 21.59 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39ab1f29-c3a7-4da4-8640-c680c11cfffc")
+		(property "Sheetname" "Motor Driver"
+			(at 181.61 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Driver.kicad_sch"
+			(at 181.61 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor1_PWM" input
+			(at 181.61 78.74 180)
+			(uuid "7cbbf9a7-ca57-4de8-9087-2aa901cf1ec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor2_PWM" input
+			(at 181.61 81.28 180)
+			(uuid "eb060a36-9b72-485c-9c37-b78a8676409d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor3_PWM" input
+			(at 181.61 83.82 180)
+			(uuid "bc4da9b7-309d-462c-82b6-bab4050113d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor4_PWM" input
+			(at 181.61 86.36 180)
+			(uuid "32750275-c306-4534-9469-33a766eb9d80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 72.39)
+		(size 20.32 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aeeca1ae-0b74-44b8-908d-f37883c2c39e")
+		(property "Sheetname" "sensor"
+			(at 86.36 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 86.36 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MPU_SCL" bidirectional
+			(at 106.68 92.71 0)
+			(uuid "d2bb67c0-6e4e-4d42-a62e-bf56b48358b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MPU_SDA" bidirectional
+			(at 106.68 95.25 0)
+			(uuid "ceba9f4d-0b2c-4ab1-bad5-e28b226d578b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3901_CS" input
+			(at 106.68 78.74 0)
+			(uuid "14804799-3fdd-467e-b4d2-3502ffcba360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3901_MISO" output
+			(at 106.68 81.28 0)
+			(uuid "76706ba6-0a7e-4c22-bd47-aa08d33d6e11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3901_MOSI" input
+			(at 106.68 83.82 0)
+			(uuid "9696a8b7-9ea1-46e6-9652-c1037372da4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM3901_SCLK" input
+			(at 106.68 86.36 0)
+			(uuid "91969be7-17ed-4602-9f17-7115e833c0fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VL53L1X_SCL" bidirectional
+			(at 106.68 97.79 0)
+			(uuid "f04224b3-92ea-4520-bc57-2fc4f5a85467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VL53L1X_SDA" bidirectional
+			(at 106.68 100.33 0)
+			(uuid "ea6cf63f-6eb0-455a-97aa-6e396d582078")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 72.39)
+		(size 30.48 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f734db89-bbc4-46d7-86fc-4d9459044668")
+		(property "Sheetname" "MCU"
+			(at 132.08 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 132.08 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ESP_SCL" bidirectional
+			(at 132.08 92.71 180)
+			(uuid "593dadcf-2586-42d9-b3af-c929c0880d40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_SDA" bidirectional
+			(at 132.08 95.25 180)
+			(uuid "e483d72e-d797-43a5-aa03-3065490464fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_MOSI" output
+			(at 132.08 83.82 180)
+			(uuid "458b0eb2-4394-4b0b-9d0b-71f21c11a03b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_SCLK" output
+			(at 132.08 86.36 180)
+			(uuid "42d42f4a-72c3-4f48-96b9-1713371cf245")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_CS" output
+			(at 132.08 78.74 180)
+			(uuid "27da43ad-fe6a-4860-bb48-473df91cb305")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_MISO" input
+			(at 132.08 81.28 180)
+			(uuid "ccc08634-d716-4782-8da9-340b5a3db95a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor1_PWM" output
+			(at 162.56 78.74 0)
+			(uuid "9a49105c-ade1-494c-a3b7-d544ca527b8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor2_PWM" output
+			(at 162.56 81.28 0)
+			(uuid "3797e414-5d63-4a7e-9d7e-289182eac96a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor3_PWM" output
+			(at 162.56 83.82 0)
+			(uuid "c4d77230-f03e-44bb-aca0-edb5bf14084e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor4_PWM" output
+			(at 162.56 86.36 0)
+			(uuid "3fdb082b-9ad1-4379-bcdc-f4d58d22b1e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

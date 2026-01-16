@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mini_drone")(type "KiCad")(uri "${KIPRJMOD}/MINI_Drone_symbols/mini_drone.kicad_sym")(options "")(descr ""))
+)
