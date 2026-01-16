@@ -1608,6 +1608,16 @@
 		)
 		(uuid b677aa04-b198-4364-9617-49d45fc3e622)
 	)
+	(text "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
+		(exclude_from_sim no)
+		(at 212.852 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f9a8760-ea1a-4634-b06d-86f33de7f050")
+	)
 	(text "MPU-6050"
 		(exclude_from_sim no)
 		(at 27.432 81.026 0)
