@@ -1,4 +1,4 @@
-26951165159692471
+26954702575715683
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -107681,6 +107681,13 @@ Varistor VF
 2
 2
 mini_drone
+AO4407A
+
+
+0
+8
+3
+mini_drone
 IND-SMD_L4.2-W4.0_SPM4030T
 
 
@@ -107701,6 +107708,13 @@ SOT-23-8_L2.9-W1.6-P0.65-LS2.8-BR
 0
 8
 8
+mini_drone
+SW-SMD_SSSS811101
+
+
+0
+7
+7
 mini_drone
 TPS564242DR
 

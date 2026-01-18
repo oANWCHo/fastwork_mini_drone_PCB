@@ -2179,72 +2179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 185.42 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17abe58a-db87-43b1-99ed-c4490414b47d")
-		(property "Reference" "#PWR040"
-			(at 185.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 185.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 185.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "924b7e02-1ad8-4ff7-a866-de301521ea3e")
-		)
-		(instances
-			(project "Mini_drone_PCB"
-				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mini_drone:AO3400")
 		(at 182.88 100.33 0)
 		(unit 1)
@@ -2784,72 +2718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 121.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55b2a950-5c8f-4d04-a54b-32e212d1489d")
-		(property "Reference" "#PWR038"
-			(at 121.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3580ff8a-4552-411d-84e8-f44d53d3ee61")
-		)
-		(instances
-			(project "Mini_drone_PCB"
-				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 196.85 90.17 180)
 		(unit 1)
@@ -3234,72 +3102,6 @@
 			(project "Mini_drone_PCB"
 				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 248.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "830cc987-c0f9-4e01-a537-cd9f1f144d2d")
-		(property "Reference" "#PWR042"
-			(at 248.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 248.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bd3b9f4-4df3-4239-89f0-ead922353b42")
-		)
-		(instances
-			(project "Mini_drone_PCB"
-				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3768,16 +3570,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 58.42 77.47 0)
+		(at 185.42 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d974a749-14a4-4568-afd5-d54f96e5835d")
-		(property "Reference" "#PWR036"
-			(at 58.42 81.28 0)
+		(uuid "e39872b4-5643-4d28-9308-2c75822ed8ce")
+		(property "Reference" "#PWR038"
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,8 +3586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 58.42 72.39 0)
+		(property "Value" "+VIN"
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 77.47 0)
+			(at 185.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 77.47 0)
+			(at 185.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3613,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 58.42 77.47 0)
+			(at 185.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,12 +3622,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf32fe68-89c9-472b-abf3-aa79522a5deb")
+			(uuid "fa486ee4-3b09-4259-b95b-57c4a3ef27d4")
 		)
 		(instances
 			(project "Mini_drone_PCB"
 				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
-					(reference "#PWR036")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 248.92 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e56034f5-4f71-4268-9db4-a5c47a163656")
+		(property "Reference" "#PWR040"
+			(at 248.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VIN"
+			(at 248.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 248.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef6b7a84-9e42-4d2d-b451-0d7877b03e60")
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3906,6 +3772,136 @@
 			(project "Mini_drone_PCB"
 				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 121.92 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f08a4929-6455-4369-beec-36ece4dd28a3")
+		(property "Reference" "#PWR036"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VIN"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68447c46-9616-434f-a389-e5d5494ba853")
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 58.42 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f271c5a7-2014-4e54-8e34-29c0af6447a2")
+		(property "Reference" "#PWR049"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VIN"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 58.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe2f4833-0da4-4f5d-93a8-639fd1c574ea")
+		)
+		(instances
+			(project "Mini_drone_PCB"
+				(path "/26327867-460c-43fd-8161-2610019aa08d/39ab1f29-c3a7-4da4-8640-c680c11cfffc"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
