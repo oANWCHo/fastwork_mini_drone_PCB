@@ -1,4 +1,4 @@
-26954702581106722
+26960016748037855
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -107694,6 +107694,27 @@ IND-SMD_L4.2-W4.0_SPM4030T
 0
 2
 2
+mini_drone
+POGO 2Pin Pitch 4
+
+
+0
+2
+2
+mini_drone
+POGO 4Pin Pitch 2.54
+
+
+0
+4
+4
+mini_drone
+POGO 6Pin Pitch 2.54
+
+
+0
+6
+6
 mini_drone
 SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
 

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.025
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|150575000|123986500|38cd0410-db34-42d7-9105-fdc50b2674ae|243ed8db-6c5b-4b5d-b07d-9520d4b33610",
+          ""
+        ],
+        [
+          "copper_edge_clearance|156435684|123986500|7f1216f1-21f0-4c76-bc41-9232d9f39df8|d9c7b098-821d-4240-a1a8-07bcdbfb5c01",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -139,7 +148,7 @@
         "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -191,6 +200,7 @@
         0.15,
         0.2,
         0.3,
+        0.4,
         0.5,
         0.8,
         1.5
@@ -229,6 +239,14 @@
         {
           "diameter": 0.25,
           "drill": 0.15
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false

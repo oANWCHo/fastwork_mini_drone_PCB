@@ -1760,16 +1760,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 113.03) (xy 46.99 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484ace25-fc42-4c23-908d-387e122b3e4a")
-	)
-	(wire
-		(pts
 			(xy 95.25 29.21) (xy 99.06 29.21)
 		)
 		(stroke
@@ -1947,16 +1937,6 @@
 			(type default)
 		)
 		(uuid "c75747ec-0568-4bad-ad89-9242196a8100")
-	)
-	(wire
-		(pts
-			(xy 78.74 109.22) (xy 93.98 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9fb9b05-194c-4765-9a41-e11e77a39e60")
 	)
 	(wire
 		(pts
@@ -7979,39 +7959,6 @@
 			"ciIn8hjJCSifyImcyIk8RnICyidyIidyIo+R/P8wd9Wv963C8gAAAABJRU5ErkJggg=="
 		)
 	)
-	(hierarchical_label "PWM3901_MOSI"
-		(shape input)
-		(at 93.98 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f30d0d7-3cba-4361-b784-5967a51ba7cc")
-	)
-	(hierarchical_label "PWM3901_CS"
-		(shape input)
-		(at 93.98 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "142a68cf-f837-43d3-ac51-b1e3c0567de3")
-	)
-	(hierarchical_label "PWM3901_MISO"
-		(shape output)
-		(at 93.98 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1885f0a7-7c36-4ef9-98fa-868ddf436209")
-	)
 	(hierarchical_label "MPU_SCL"
 		(shape bidirectional)
 		(at 83.82 45.72 180)
@@ -8025,18 +7972,18 @@
 	)
 	(hierarchical_label "PWM3901_SCLK"
 		(shape input)
-		(at 93.98 114.3 180)
+		(at 93.98 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "48fcfa45-2e9e-4646-8729-cd666bc06374")
+		(uuid "7dddcf10-d706-4e1b-9b0d-5340bad5b84a")
 	)
 	(hierarchical_label "VL53L1X_SDA"
 		(shape bidirectional)
-		(at 46.99 115.57 180)
+		(at 46.99 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8044,6 +7991,39 @@
 			(justify right)
 		)
 		(uuid "8b279fc6-aa04-4b07-a9b8-528c6801cce9")
+	)
+	(hierarchical_label "PWM3901_CS"
+		(shape input)
+		(at 93.98 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92f78006-9445-49a6-a996-0b383bffe04e")
+	)
+	(hierarchical_label "PWM3901_MOSI"
+		(shape input)
+		(at 93.98 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b70a2911-0fd0-46c1-8afc-d494926586ed")
+	)
+	(hierarchical_label "PWM3901_MISO"
+		(shape output)
+		(at 93.98 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca04025a-8e8e-4fac-837d-36f38483358f")
 	)
 	(hierarchical_label "MPU_SDA"
 		(shape bidirectional)
@@ -8058,7 +8038,7 @@
 	)
 	(hierarchical_label "VL53L1X_SCL"
 		(shape bidirectional)
-		(at 46.99 118.11 180)
+		(at 46.99 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8135,7 +8115,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 31.75 113.03 270)
+		(at 46.99 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8144,7 +8124,7 @@
 		(fields_autoplaced yes)
 		(uuid "201f5cec-c8fd-4158-86ad-4a11a21705f3")
 		(property "Reference" "#PWR012"
-			(at 25.4 113.03 0)
+			(at 40.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8133,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 113.0299 90)
+			(at 43.18 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +8142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 113.03 0)
+			(at 46.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 113.03 0)
+			(at 46.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +8160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 31.75 113.03 0)
+			(at 46.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,7 +8365,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1691"
+		(property "LCSC Part #" "C15195 "
 			(at 91.44 29.21 0)
 			(effects
 				(font
@@ -8411,7 +8391,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 78.74 109.22 270)
+		(at 93.98 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8420,7 +8400,7 @@
 		(fields_autoplaced yes)
 		(uuid "84bad948-2204-4988-bae6-4c20b8851114")
 		(property "Reference" "#PWR014"
-			(at 72.39 109.22 0)
+			(at 87.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 109.2199 90)
+			(at 90.17 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 109.22 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 109.22 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 78.74 109.22 0)
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mini_drone:POGO 6Pin Pitch 2.54"
 			(at 99.06 111.76 0)
 			(effects
 				(font
@@ -9070,7 +9050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mini_drone:POGO 4Pin Pitch 2.54"
 			(at 52.07 113.03 0)
 			(effects
 				(font
@@ -9171,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1691"
+		(property "LCSC Part #" "C1531 "
 			(at 134.62 55.88 0)
 			(effects
 				(font

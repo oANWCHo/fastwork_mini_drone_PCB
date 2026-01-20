@@ -1400,16 +1400,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 90.17) (xy 191.77 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ac71b1-d09c-4b1b-a506-11e565368bd4")
-	)
-	(wire
-		(pts
 			(xy 173.99 100.33) (xy 173.99 105.41)
 		)
 		(stroke
@@ -1547,16 +1537,6 @@
 			(type default)
 		)
 		(uuid "40d0294b-60b4-436a-a098-25b3bac13f3c")
-	)
-	(wire
-		(pts
-			(xy 255.27 87.63) (xy 248.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43469cb2-789a-4f12-898b-6834e7b07ae6")
 	)
 	(wire
 		(pts
@@ -1820,36 +1800,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 185.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39cfb4f-43b7-4afb-8533-42eec930df7f")
-	)
-	(wire
-		(pts
-			(xy 58.42 90.17) (xy 64.77 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a77e6ef3-866e-447c-9a93-f2bcf256f982")
-	)
-	(wire
-		(pts
-			(xy 64.77 87.63) (xy 58.42 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf53f4f-efdd-40c1-ba32-639dd2c21e80")
-	)
-	(wire
-		(pts
 			(xy 58.42 77.47) (xy 58.42 83.82)
 		)
 		(stroke
@@ -1877,16 +1827,6 @@
 			(type default)
 		)
 		(uuid "ad00bb43-291a-40c4-943f-b719ccf60bf4")
-	)
-	(wire
-		(pts
-			(xy 248.92 90.17) (xy 255.27 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0014209-9028-494c-884f-d2be016163a7")
 	)
 	(wire
 		(pts
@@ -2037,26 +1977,6 @@
 			(type default)
 		)
 		(uuid "ecda72c5-d8f6-4c78-822d-54767678697a")
-	)
-	(wire
-		(pts
-			(xy 128.27 87.63) (xy 121.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4892e22-077a-4c57-b3ae-4221f1db5af3")
-	)
-	(wire
-		(pts
-			(xy 121.92 90.17) (xy 128.27 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f886c552-41dd-4c03-a95a-b98302e7aa92")
 	)
 	(wire
 		(pts
@@ -2555,7 +2475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C25531"
+		(property "LCSC Part #" "C25531"
 			(at 237.49 109.22 90)
 			(effects
 				(font
@@ -2708,7 +2628,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 69.85 90.17 180)
+		(at 254 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2717,7 +2637,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b604f34-26e7-454a-82aa-40ba85f9023c")
 		(property "Reference" "J4"
-			(at 71.12 87.6299 0)
+			(at 255.27 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,8 +2645,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor1_Pogo"
-			(at 71.12 90.1699 0)
+		(property "Value" "Motor4_Pogo"
+			(at 255.27 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,8 +2654,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 90.17 0)
+		(property "Footprint" "mini_drone:POGO 2Pin Pitch 4"
+			(at 254 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 90.17 0)
+			(at 254 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2673,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 69.85 90.17 0)
+			(at 254 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2698,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 133.35 90.17 180)
+		(at 63.5 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2787,7 +2707,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e591804-992b-4fbf-afb2-d838b20966c0")
 		(property "Reference" "J5"
-			(at 134.62 87.6299 0)
+			(at 64.77 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,8 +2715,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor2_Pogo"
-			(at 134.62 90.1699 0)
+		(property "Value" "Motor1_Pogo"
+			(at 64.77 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,8 +2724,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 90.17 0)
+		(property "Footprint" "mini_drone:POGO 2Pin Pitch 4"
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 90.17 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2743,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 133.35 90.17 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 196.85 90.17 180)
+		(at 127 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2923,7 +2843,7 @@
 		(fields_autoplaced yes)
 		(uuid "64f26aa9-e08d-4b42-8dc9-68fae68d9aec")
 		(property "Reference" "J6"
-			(at 198.12 87.6299 0)
+			(at 128.27 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,8 +2851,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor3_Pogo"
-			(at 198.12 90.1699 0)
+		(property "Value" "Motor2_Pogo"
+			(at 128.27 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,8 +2860,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 90.17 0)
+		(property "Footprint" "mini_drone:POGO 2Pin Pitch 4"
+			(at 127 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 90.17 0)
+			(at 127 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2879,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 196.85 90.17 0)
+			(at 127 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3342,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C25531"
+		(property "LCSC Part #" "C25531"
 			(at 173.99 109.22 90)
 			(effects
 				(font
@@ -3883,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C25531"
+		(property "LCSC Part #" "C25531"
 			(at 46.99 109.22 90)
 			(effects
 				(font
@@ -3909,7 +3829,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 260.35 90.17 180)
+		(at 190.5 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3918,7 +3838,7 @@
 		(fields_autoplaced yes)
 		(uuid "f29de597-f474-4094-8eef-f0aed2d645ba")
 		(property "Reference" "J7"
-			(at 261.62 87.6299 0)
+			(at 191.77 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,8 +3846,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor4_Pogo"
-			(at 261.62 90.1699 0)
+		(property "Value" "Motor3_Pogo"
+			(at 191.77 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,8 +3855,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 260.35 90.17 0)
+		(property "Footprint" "mini_drone:POGO 2Pin Pitch 4"
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3874,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 260.35 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +3952,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C25531"
+		(property "LCSC Part #" "C25531"
 			(at 110.49 109.22 90)
 			(effects
 				(font
