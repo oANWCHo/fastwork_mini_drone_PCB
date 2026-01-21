@@ -1292,6 +1292,62 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 254.508 105.918 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "76347cd0-3203-4c95-8038-4269e225deb2")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 128.524 105.664 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "7c9cde9b-1655-46c3-800b-09ba88fb31d0")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 65.532 106.426 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "95e6518e-dd22-4b75-a5c8-0c09cc775cf7")
+	)
+	(text "Checked"
+		(exclude_from_sim no)
+		(at 191.516 105.664 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 63 23 1)
+			)
+		)
+		(uuid "fac2127e-7d41-431f-8aef-0f257ada2f7a")
+	)
 	(junction
 		(at 58.42 93.98)
 		(diameter 0)

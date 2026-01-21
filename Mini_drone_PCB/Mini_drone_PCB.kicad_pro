@@ -583,14 +583,8 @@
         },
         {
           "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -601,8 +595,14 @@
         },
         {
           "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
