@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mini_drone")(type "KiCad")(uri "${KIPRJMOD}/MINI_Drone_footprints/mini_drone.pretty")(options "")(descr ""))
+)
